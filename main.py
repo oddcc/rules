@@ -6,6 +6,7 @@ import json
 import requests
 import yaml
 import ipaddress
+import json
 from io import StringIO
 
 # 映射字典
@@ -141,6 +142,9 @@ def parse_list_file(link, output_directory):
                 # domain_entries.extend([address.strip() for address in addresses])  # 1.9以下的版本需要额外处理 domain_suffix
             elif pattern == 'domain':
                 domain_entries.extend([address.strip() for address in addresses])
+            elif pattern == 'domain_regex':
+                rule_entry = {pattern: [json.dumps(address.strip()) for address in addresses]}
+                result_rules["rules"].append(rule_entry)
             else:
                 rule_entry = {pattern: [address.strip() for address in addresses]}
                 result_rules["rules"].append(rule_entry)
