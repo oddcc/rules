@@ -1,0 +1,36 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "code-server.chenhq.ren",
+        "d3njjcbhbojbot.cloudfront.net",
+        "edx-video.net",
+        "prod-edx-edxapp-assets.edx-cdn.org",
+        "prod-images.edx-video.net"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "linkedin"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ankiweb.net",
+        "developer.apple.com",
+        "duolingo.com",
+        "hitun.io",
+        "kutt.it",
+        "linkedin.com",
+        "m-team.cc",
+        "services.googleapis.cn",
+        "stackoverflow.com",
+        "udemy.com",
+        "udemycdn.com",
+        "v2ex.com",
+        "xn--ngstr-lra8j.com"
+      ]
+    }
+  ],
+  "version": 1
+}
