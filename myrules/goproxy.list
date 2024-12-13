@@ -17,3 +17,5 @@ DOMAIN-SUFFIX,hitun.io
 DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-KEYWORD,linkedin
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.apple.com
