@@ -17,6 +17,8 @@
     {
       "domain_suffix": [
         "ankiweb.net",
+        "apple-relay.apple.com",
+        "apple-relay.cloudflare.com",
         "developer.apple.com",
         "duolingo.com",
         "hitun.io",
